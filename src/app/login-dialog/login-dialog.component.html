@@ -1,0 +1,11 @@
+<div mat-dialog-content>
+    <p>Operator</p>
+    <mat-form-field>
+        <input matInput placeholder="ID" [(ngModel)]="id">
+        <mat-hint>Enter your numeric ID</mat-hint>
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button color="primary" [mat-dialog-close]="id">Access</button>
+</div>

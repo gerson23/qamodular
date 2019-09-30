@@ -1,0 +1,17 @@
+.mainbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    font-style: italic;
+    font-size: large;
+    font-weight: 500;
+}
